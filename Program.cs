@@ -16,6 +16,7 @@ namespace SAPB1ServiceLayerTest
 
             if (!string.IsNullOrEmpty(sessionId))
             {
+                JEReadAndInsert.ReadJEAndInsert(sessionId);
                 //BPSampleCreation.CreateMultipleBusinessPartners(sessionId);
                 //JESampleCreation.CreateSampleJE(sessionId);
                 Utilities.Logout(sessionId);
