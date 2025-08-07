@@ -24,14 +24,14 @@ namespace ServiceLayerTesting.Processor
                 {
                     new JELine
                     {
-                        AccountCode = "160000", // Replace
+                        AccountCode = "160000",
                         Debit = 12.00,
                         Credit = 0.00,
                         LineMemo = "Test Debit"
                     },
                     new JELine
                     {
-                        AccountCode = "161000", // Replace
+                        AccountCode = "161000",
                         Debit = 0.00,
                         Credit = 12.00,
                         LineMemo = "Test Credit"
